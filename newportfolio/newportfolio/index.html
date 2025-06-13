@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/0478f32f83.js" crossorigin="anonymous"></script>
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+    <div class="hero">
+        <nav>
+           <img src="Naikk-removebg-preview2.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-x" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div id="home" class="detel">
+            <p>UI/UX Designer</p>
+            <h1>Hi! I'm Poornesh Gowda</h1>
+                <h2>And I'm a <span class="changing-text">Coder</span></h2>
+        </div>
+
+
+        <!------about------>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="#">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>I believe in the importance of staying updated with the latest industry advancements and continuously
+                             pushing the boundaries of what's possible.</p>
+                             
+                              <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links" onclick="opentab('education')" >Education</p>
+                                <p class="tab-links" onclick="opentab('experience')" >Experience</p>
+                                
+                              </div>
+
+
+                              <div class="tab-contents active-tab" id="skills">
+                              <ul>
+                                <li><span>JAVA</span></li>
+                                <li><span>DSA</span></li>
+                                <li><span>Python</span></li>
+                                <li><span>3D-Modelling</span></li>
+                                <li><span>Web Designing : HTML ,CSS ,JavaScript</span></li>
+                                <li><span>SQL</span></li>
+                              </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                    <ul>
+                      <li><span>Intern at CodSoft </span></li>
+                     
+                    </ul>
+          </div>
+
+          <div class="tab-contents" id="education">
+          <ul>
+            <li><span>CS Engineering from SAIT | </span></li>
+            <li><span>XII from nitte Menakshi PU College | </span></li>
+            <li><span>X from Sacred Heart Public Scholl| </span></li>
+          </ul>
+</div>
+
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <!-----------services----------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>As a passionate web developer. I specialize in creating dynamic, user-friendly websites and web applications that deliver exceptional user experiences.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-layer-group"></i>
+                    <h2>3-D Modelling</h2>
+                    <p>Outside of my professional work, I enjoy exploring the latest design trends, Modelling, or sketching new ideas. These activities fuel my creativity and keep me inspired.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-mobile-button"></i>
+                    <h2>App Design</h2>
+                    <p>As a passionate web developer. I specialize in creating dynamic, user-friendly websites and web applications that deliver exceptional user experiences.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-----------portfolio--->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="mac.jpg">
+                <div class="layer">
+                    <h3>Personal Portfolio</h3>
+                    <p>Provides my personal description.
+                        Interactive responsive webpage.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="3d.jpg">
+                <div class="layer">
+                    <h3>3D-Modelling</h3>
+                  <p>A low poly attempt in 3D modelling using blender.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+          
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+
+
+
+
+   <!-----------contact---->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>poorneshgowdapoornesh0@gmail.com.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 6362615957</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/poornes_zz?igsh=ODkyaHhnMGRoaWg4"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/poornesh-gowda-5b7b90243?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/NitheshNaik"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="first resume.pdf" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your E-mail" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" ></textarea>
+                         <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>© 2025 Portfolio by Poornesh Gowda</p>
+    </div>
+</div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    
+    <script src="javaa.js"></script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxyeoQQnZZvfhadf5U5fojdpth4XVCupFBys7SP-tOVAJT7GZnWNF0RMRYgaiMo83oO/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg =document.getElementById("msg");
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully !"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
